@@ -2,136 +2,123 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="87931" started-at="2018-06-16T18:08:44Z" finished-at="2018-06-16T18:10:12Z">
+  <suite name="Suite" duration-ms="38298" started-at="2018-06-26T03:12:30Z" finished-at="2018-06-26T03:13:08Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="87931" started-at="2018-06-16T18:08:44Z" finished-at="2018-06-16T18:10:12Z">
-      <class name="learningTestNG.Vult_TestCases">
-        <test-method status="PASS" signature="initalizeDriver()[pri:0, instance:learningTestNG.Vult_TestCases@523884b2]" name="initalizeDriver" is-config="true" duration-ms="13606" started-at="2018-06-16T23:38:44Z" finished-at="2018-06-16T23:38:57Z">
+    <test name="Test" duration-ms="38298" started-at="2018-06-26T03:12:30Z" finished-at="2018-06-26T03:13:08Z">
+      <class name="learningTestNG.Project_Vultus">
+        <test-method status="PASS" signature="initalizeDriver()[pri:0, instance:learningTestNG.Project_Vultus@3ffc5af1]" name="initalizeDriver" is-config="true" duration-ms="9375" started-at="2018-06-26T08:42:30Z" finished-at="2018-06-26T08:42:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalizeDriver -->
-        <test-method status="PASS" signature="login()[pri:0, instance:learningTestNG.Vult_TestCases@523884b2]" name="login" duration-ms="25482" started-at="2018-06-16T23:38:57Z" finished-at="2018-06-16T23:39:23Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:learningTestNG.Project_Vultus@3ffc5af1]" name="login" duration-ms="16330" started-at="2018-06-26T08:42:39Z" finished-at="2018-06-26T08:42:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="navigateTOUserTab()[pri:0, instance:learningTestNG.Vult_TestCases@523884b2]" name="navigateTOUserTab" duration-ms="6755" started-at="2018-06-16T23:39:23Z" finished-at="2018-06-16T23:39:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateTOUserTab -->
-        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:learningTestNG.Vult_TestCases@523884b2]" name="createUser" duration-ms="32801" started-at="2018-06-16T23:39:31Z" data-provider="testdata" finished-at="2018-06-16T23:40:03Z">
+        <test-method status="PASS" signature="navigateTOProjectTab(java.lang.String)[pri:0, instance:learningTestNG.Project_Vultus@3ffc5af1]" name="navigateTOProjectTab" duration-ms="8886" started-at="2018-06-26T08:42:55Z" finished-at="2018-06-26T08:43:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Gtest1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gtest2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Consultant]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[gtest.1@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[gtest.1@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Hyd]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Arizona [AZ]]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Tel]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[524366]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[01/21/2018]]>
+                <![CDATA[Projects]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:learningTestNG.Vult_TestCases@523884b2]" name="createUser" duration-ms="8188" started-at="2018-06-16T23:40:03Z" data-provider="testdata" finished-at="2018-06-16T23:40:12Z">
+        </test-method> <!-- navigateTOProjectTab -->
+        <test-method status="PASS" signature="createProject(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:learningTestNG.Project_Vultus@3ffc5af1]" name="createProject" duration-ms="2518" started-at="2018-06-26T08:43:05Z" data-provider="testdata" finished-at="2018-06-26T08:43:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Gtest1]]>
+                <![CDATA[test2]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Gtest2]]>
+                <![CDATA[SampleTest]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Consultant]]>
+                <![CDATA[Sample]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[g.test1@gmail.com]]>
+                <![CDATA[alaska]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[gtest1@gmail.com]]>
+                <![CDATA[Hyd]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Hyd]]>
+                <![CDATA[project2]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Arizona [AZ]]]>
+                <![CDATA[06/26/2018]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Tel]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[524366]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[01/21/2018]]>
+                <![CDATA[06/29/2018]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-      </class> <!-- learningTestNG.Vult_TestCases -->
+        </test-method> <!-- createProject -->
+        <test-method status="PASS" signature="createProject(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:learningTestNG.Project_Vultus@3ffc5af1]" name="createProject" duration-ms="21" started-at="2018-06-26T08:43:08Z" data-provider="testdata" finished-at="2018-06-26T08:43:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sample]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[alaska]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hyd]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[project2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[06/26/2018]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[06/29/2018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+      </class> <!-- learningTestNG.Project_Vultus -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -2,6 +2,8 @@ package utils;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
@@ -19,6 +21,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class WebDriverUtils {
 	
 	public static WebDriver driver=null;
+	
+	public static void clickELementJS(WebElement element)
+	{
+		((JavascriptExecutor)driver).executeScript("arguments[0].click();", element);
+	}
+	
 	
 	
 	private static void until(WebDriver driver,Function<WebDriver, Boolean> waitCondition,Long i)
@@ -51,6 +59,9 @@ public class WebDriverUtils {
 			String locatorType=value[0];
 			String locatorValue=value[1];
 			switch (locatorType) {
+			case "id":
+				element=driver.findElement(By.id(locatorValue));
+				break;
 			case "xpath":
 				element=driver.findElement(By.xpath(locatorValue));
 				break;
@@ -67,6 +78,65 @@ public class WebDriverUtils {
 				throw new Exception(locatorType+" not found in the locator list");
 			}
 			return element;
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			throw e;
+		}
+		
+		
+	}
+	
+	public static void actionClick(String locator) throws Exception
+	{
+		Actions action=new Actions(driver);
+		WebElement ele=getWebElement(locator);
+		action.moveToElement(ele).click(ele).build().perform();
+	}
+	
+	public static void actionSendkeys(String locator,String value) throws Exception
+	{
+		Actions action=new Actions(driver);
+		WebElement ele=getWebElement(locator);
+		action.moveToElement(ele).click(ele).sendKeys(value).build().perform();
+	}
+	
+	public static void jsSendKeys(String locator,String value) throws Exception
+	{
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		WebElement ele=getWebElement(locator);
+		
+		js.executeScript("arguments[0].setAttribute(arguments[1],arguments[2])", ele,"value",value);
+	}
+	
+	public static List<WebElement> getWebElements(String args) throws Exception
+	{
+		try {
+			List<WebElement> Elements=new ArrayList<>();
+			String[] value=args.split("__");
+			String locatorType=value[0];
+			String locatorValue=value[1];
+			switch (locatorType) {
+			case "id":
+				Elements=driver.findElements(By.id(locatorValue));
+				break;
+			case "xpath":
+				Elements=driver.findElements(By.xpath(locatorValue));
+				break;
+			case "css":
+				Elements=driver.findElements(By.cssSelector(locatorValue));
+				break;
+			case "name":
+				Elements=driver.findElements(By.name(locatorValue));
+				break;
+			case "linkText":	
+				Elements=driver.findElements(By.linkText(locatorValue));
+				break;
+			default:
+				throw new Exception(locatorType+" not found in the locator list");
+			}
+			System.out.println("size of list :"+Elements.size());
+			return Elements;
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
