@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="4.321" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="55.665" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="BankProject"/>
@@ -9,6 +9,7 @@
     <property name="JENKINS_HOME" value="C:\Users\HOME\.jenkins"/>
     <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
     <property name="HUDSON_SERVER_COOKIE" value="9d9eb1d98cf1147f"/>
+    <property name="POM_ARTIFACTID" value="SeleniumPraticse"/>
     <property name="SynaProgDir" value="Synaptics\SynTP"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\oc\jdk1.8.0_151\jre\lib\resources.jar;C:\oc\jdk1.8.0_151\jre\lib\rt.jar;C:\oc\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\oc\jdk1.8.0_151\jre\lib\jsse.jar;C:\oc\jdk1.8.0_151\jre\lib\jce.jar;C:\oc\jdk1.8.0_151\jre\lib\charsets.jar;C:\oc\jdk1.8.0_151\jre\lib\jfr.jar;C:\oc\jdk1.8.0_151\jre\classes"/>
@@ -16,6 +17,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="SeleniumPraticse"/>
     <property name="NODE_LABELS" value="master"/>
     <property name="TEMP" value="C:\Users\HOME\AppData\Local\Temp"/>
     <property name="java.runtime.version" value="1.8.0_151-b12"/>
@@ -27,8 +29,8 @@
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="BankProject"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/BankProject/1/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/BankProject/2/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
     <property name="OneDrive" value="C:\Users\HOME\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\oc\jdk1.8.0_151\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Users\HOME\AppData\Local"/>
@@ -39,7 +41,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\oc\jdk1.8.0_151\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="1"/>
+    <property name="BUILD_ID" value="2"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -56,7 +58,8 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
     <property name="=ExitCode" value="00000001"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/BankProject/1/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/BankProject/2/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Users\HOME\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.151-b12"/>
@@ -70,15 +73,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
-    <property name="HOMEPATH" value="\Users\HOME"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\HOME"/>
+    <property name="POM_PACKAGING" value="jar"/>
     <property name="user.script" value=""/>
     <property name="COMPUTERNAME" value="DESKTOP-U77UHNF"/>
     <property name="GOOGLE_API_KEY" value="no"/>
     <property name="GOOGLE_DEFAULT_CLIENT_SECRET" value="no"/>
+    <property name="POM_GROUPID" value="com"/>
     <property name="user.home" value="C:\Users\HOME"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-BankProject-1"/>
+    <property name="BUILD_TAG" value="jenkins-BankProject-2"/>
     <property name="JENKINS_SERVER_COOKIE" value="9d9eb1d98cf1147f"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -86,14 +91,14 @@
     <property name="USERPROFILE" value="C:\Users\HOME"/>
     <property name="CLASSPATH" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\oc\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\softwares\apache-maven-3.5.0/bin;C:\oc\jdk1.8.0_151/bin;C:\oc\jdk1.8.0_151/bin;C:\ProgramData\Oracle\Java\javapath;D:\softwares\apache-maven-3.5.0\bin;C:\oc\jdk1.8.0_151\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Users\HOME\AppData\Local\Microsoft\WindowsApps;C:\Users\HOME\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\oc\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\softwares\apache-maven-3.5.0/bin;C:\oc\jdk1.8.0_151/bin;C:\oc\jdk1.8.0_151/bin;C:\ProgramData\Oracle\Java\javapath;D:\softwares\apache-maven-3.5.0\bin;C:\oc\jdk1.8.0_151\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Users\HOME\AppData\Local\Microsoft\WindowsApps;C:\Users\HOME\AppData\Roaming\npm;;."/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="APPDATA" value="C:\Users\HOME\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="D:\softwares\apache-maven-3.5.0"/>
     <property name="java.class.path" value="C:\Users\HOME\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.11.jar;D:\softwares\apache-maven-3.5.0\boot\plexus-classworlds-2.5.2.jar;D:\softwares\apache-maven-3.5.0/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\softwares\apache-maven-3.5.0 C:\Users\HOME\.jenkins\war\WEB-INF\lib\remoting-3.20.jar C:\Users\HOME\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\Users\HOME\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 52716"/>
-    <property name="Path" value="C:\oc\jdk1.8.0_151/bin;C:\ProgramData\Oracle\Java\javapath;D:\softwares\apache-maven-3.5.0\bin;C:\oc\jdk1.8.0_151\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Users\HOME\AppData\Local\Microsoft\WindowsApps;C:\Users\HOME\AppData\Roaming\npm"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\softwares\apache-maven-3.5.0 C:\Users\HOME\.jenkins\war\WEB-INF\lib\remoting-3.20.jar C:\Users\HOME\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\Users\HOME\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 50143"/>
+    <property name="Path" value="C:\oc\jdk1.8.0_151/bin;C:\ProgramData\Oracle\Java\javapath;D:\softwares\apache-maven-3.5.0\bin;C:\oc\jdk1.8.0_151\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Users\HOME\AppData\Local\Microsoft\WindowsApps;C:\Users\HOME\AppData\Roaming\npm;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="PATH+JDK" value="C:\oc\jdk1.8.0_151/bin"/>
@@ -103,13 +108,12 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="M2_HOME" value="D:\softwares\apache-maven-3.5.0"/>
-    <property name="=D:" value="D:\softwares\jenkins"/>
     <property name="java.io.tmpdir" value="C:\Users\HOME\AppData\Local\Temp\"/>
     <property name="OS" value="Windows_NT"/>
     <property name="HUDSON_HOME" value="C:\Users\HOME\.jenkins"/>
     <property name="PATH+MAVEN" value="D:\softwares\apache-maven-3.5.0/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/BankProject/1/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/BankProject/2/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -122,11 +126,12 @@
     <property name="USERDOMAIN" value="DESKTOP-U77UHNF"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="1"/>
+    <property name="BUILD_NUMBER" value="2"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="4e03"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\Users\HOME\Desktop"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Users\HOME\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar"/>
@@ -134,6 +139,10 @@
     <property name="maven3.interceptor.common" value="C:\Users\HOME\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
   </properties>
-  <testcase name="login" classname="learningTestNG.Login_Test" time="4.321"/>
+  <testcase name="login" classname="learningTestNG.Vult_TestCases" time="17.946"/>
+  <testcase name="navigateTOUserTab" classname="learningTestNG.Vult_TestCases" time="6.751"/>
+  <testcase name="createUser" classname="learningTestNG.Vult_TestCases" time="30.968"/>
+  <testcase name="createUser" classname="learningTestNG.Vult_TestCases" time="27.46"/>
 </testsuite>
