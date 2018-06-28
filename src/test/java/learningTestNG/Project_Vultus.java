@@ -49,7 +49,7 @@ public class Project_Vultus {
 
 		try {
 			System.out.println(driver.getTitle());
-			driver.findElement(By.id("email")).sendKeys("r.aviconnectpersonal@gmail.com");
+			driver.findElement(By.id("email")).sendKeys("abcd@gmail.com");
 
 			driver.findElement(By.id("password")).sendKeys("123");
 
@@ -125,9 +125,12 @@ public class Project_Vultus {
 				
 				getWebElement("xpath__//*[@id='btnSaveClientProjectnew']").click();
 				
-				//getWebElement("xpath__//div[@class='jconfirm-buttons']/button[text()='NO']").click();
+				WebDriverUtils.waitUntilElementClicable(30, By.xpath("xpath__//div[@class='jconfirm-buttons']/button[text()='NO']"));
 				
-				getWebElement("xpath__//div[@class='jconfirm-buttons']/button[text()='YES']").click();
+				Thread.sleep(2000);
+				getWebElement("xpath__//div[@class='jconfirm-buttons']/button[text()='NO']").click();
+				
+				//getWebElement("xpath__//div[@class='jconfirm-buttons']/button[text()='YES']").click();
 				getWebElement("id__OpensitemapProjects").click();
 					
 				driver.findElement(By.xpath("//*[@id='btnProject']")).click();

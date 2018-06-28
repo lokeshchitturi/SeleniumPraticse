@@ -45,7 +45,7 @@ public class Vult_TestCases {
 		
 		  try {
 			System.out.println(driver.getTitle());
-			  driver.findElement(By.id("email")).sendKeys("r.aviconnectpersonal@gmail.com");
+			  driver.findElement(By.id("email")).sendKeys("abd@gmail.com");
 			  
 			
 			  

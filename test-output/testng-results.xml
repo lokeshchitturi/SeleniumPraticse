@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="38298" started-at="2018-06-26T03:12:30Z" finished-at="2018-06-26T03:13:08Z">
+  <suite name="Suite" duration-ms="93029" started-at="2018-06-28T03:30:45Z" finished-at="2018-06-28T03:32:18Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="38298" started-at="2018-06-26T03:12:30Z" finished-at="2018-06-26T03:13:08Z">
+    <test name="Test" duration-ms="93029" started-at="2018-06-28T03:30:45Z" finished-at="2018-06-28T03:32:18Z">
       <class name="learningTestNG.Project_Vultus">
-        <test-method status="PASS" signature="initalizeDriver()[pri:0, instance:learningTestNG.Project_Vultus@3ffc5af1]" name="initalizeDriver" is-config="true" duration-ms="9375" started-at="2018-06-26T08:42:30Z" finished-at="2018-06-26T08:42:39Z">
+        <test-method status="PASS" signature="initalizeDriver()[pri:0, instance:learningTestNG.Project_Vultus@3ffc5af1]" name="initalizeDriver" is-config="true" duration-ms="10793" started-at="2018-06-28T09:00:45Z" finished-at="2018-06-28T09:00:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalizeDriver -->
-        <test-method status="PASS" signature="login()[pri:0, instance:learningTestNG.Project_Vultus@3ffc5af1]" name="login" duration-ms="16330" started-at="2018-06-26T08:42:39Z" finished-at="2018-06-26T08:42:55Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:learningTestNG.Project_Vultus@3ffc5af1]" name="login" duration-ms="15738" started-at="2018-06-28T09:00:56Z" finished-at="2018-06-28T09:01:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="navigateTOProjectTab(java.lang.String)[pri:0, instance:learningTestNG.Project_Vultus@3ffc5af1]" name="navigateTOProjectTab" duration-ms="8886" started-at="2018-06-26T08:42:55Z" finished-at="2018-06-26T08:43:04Z">
+        <test-method status="PASS" signature="navigateTOProjectTab(java.lang.String)[pri:0, instance:learningTestNG.Project_Vultus@3ffc5af1]" name="navigateTOProjectTab" duration-ms="9926" started-at="2018-06-28T09:01:12Z" finished-at="2018-06-28T09:01:22Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateTOProjectTab -->
-        <test-method status="PASS" signature="createProject(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:learningTestNG.Project_Vultus@3ffc5af1]" name="createProject" duration-ms="2518" started-at="2018-06-26T08:43:05Z" data-provider="testdata" finished-at="2018-06-26T08:43:08Z">
+        <test-method status="PASS" signature="createProject(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:learningTestNG.Project_Vultus@3ffc5af1]" name="createProject" duration-ms="55303" started-at="2018-06-28T09:01:23Z" data-provider="testdata" finished-at="2018-06-28T09:02:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[test2]]>
+                <![CDATA[test6]]>
               </value>
             </param>
             <param index="1">
@@ -55,53 +55,7 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[project2]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[06/26/2018]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[06/29/2018]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createProject -->
-        <test-method status="PASS" signature="createProject(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:learningTestNG.Project_Vultus@3ffc5af1]" name="createProject" duration-ms="21" started-at="2018-06-26T08:43:08Z" data-provider="testdata" finished-at="2018-06-26T08:43:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Sample]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[alaska]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Hyd]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[project2]]>
+                <![CDATA[project3]]>
               </value>
             </param>
             <param index="6">
